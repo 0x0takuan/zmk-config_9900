@@ -69,8 +69,8 @@
     &msc SCRL_UP            &mt LGUI HOME                       &mkp LCLK                          &kp K_BACK                        &msc SCRL_DOWN
     &kp Q        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
     &kp A        &kp S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
-    &tdSYM      &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp MINUS        &kp ENTER
-    &tdSHFT               &kp LCTRL                           &kp SPACE                          &kp LEFT                          &kp RIGHT
+    &tdSYM       &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp MINUS        &kp ENTER
+    &kp LSHFT               &kp LCTRL                           &kp SPACE                          &kp LEFT                          &kp RIGHT
             >;
         };
 
@@ -83,7 +83,7 @@
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp POUND        &kp PLUS         &kp COLON        &kp LBKT
     &kp DQT      &kp N4     &kp N5      &kp N6    &mt PRCNT SLASH &kp APOS        &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
     &kp LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL CARET &kp ENTER
-    &tdSHFT               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
+    &kp LSHFT               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
             >;
         };
 
