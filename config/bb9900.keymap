@@ -64,9 +64,9 @@
             bindings = <        
                  &tog SYM                                                                                           &tog UPPER
     &kp PSCRN               &kp C_AC_SEARCH                     &mkp LCLK                          &kp F5                            &kp F12 
-    &kp HASH     &kp N1     &kp N2      &kp N3    &kp LBKT      &kp RPAR          &kp UNDER        &kp KP_MINUS     &kp KP_PLUS      &kp AT
-    &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp BSPC
-    &kp LALT      &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp KP_EQUAL     &kp ENTER
+    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &kp LBKT          &kp UNDER        &kp PLUS         &kp COLON        &kp LPAR
+    &kp DQT      &kp N4     &kp N5      &kp N6    &kp SLASH     &kp APOS          &kp SEMI         &kp APOS         &kp AT           &kp BSPC
+    &kp LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     kp EXCL          &kp COMMA        &kp DOT          &kp KP_EQUAL     &kp ENTER
     &kp LSHFT               &kp N0                              &kp SPACE                          &kp LEFT                          &kp RIGHT
             >;
         };
