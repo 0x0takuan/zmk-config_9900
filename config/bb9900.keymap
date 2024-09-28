@@ -50,7 +50,7 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &tog SYM                                                                                           &tog UPPER
-    &msc SCRL_UP            &mt LGUI C_AC_HOME                  &mkp LCLK                          &mt ESC K_BACK                    &msc SCRL_DOWN
+    &msc SCRL_UP            &mt LGUI HOME                       &mkp LCLK                          &kp K_BACK                        &msc SCRL_DOWN
     &kp Q        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
     &kp A        &kp S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
     &sl SYM      &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp MINUS        &kp ENTER
@@ -64,10 +64,10 @@
             bindings = <        
                  &tog SYM                                                                                           &tog UPPER
     &kp F2                  &kp F4                              &mkp LCLK                          &kp F5                            &kp F12 
-    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt RPAR LPAR     &kp UNDER        &kp PLUS         &kp COLON        &kp LBKT
-    &kp DQT      &kp N4     &kp N5      &kp N6    &kp SLASH     &kp APOS          &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
+    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp UNDER        &kp PLUS         &kp COLON        &kp LBKT
+    &kp DQT      &kp N4     &kp N5      &kp N6    &mt KP_SLASH SLASH &kp APOS     &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
     &kp LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL CARET &kp ENTER
-    &kp LSHFT               &kp N0                              &kp SPACE                          &kp LEFT                          &kp RIGHT
+    &kp LSHFT               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
             >;
         };
 
@@ -76,8 +76,8 @@
             bindings = <
                  &tog SYM                                                                                           &tog UPPER
     &bt BT_SEL 0            &bt BT_SEL 1                             &td0                           &bt BT_SEL 2                     &bt BT_SEL 3
-    &none        &kp UP     &none       &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
-    &kp LEFT     &kp DOWN   &kp RIGHT   &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
+    &none        &none      &none       &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
+    &none        &none      &none       &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
     &kp LCTRL    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
     &bt BT_SEL 0            &bt BT_SEL 1                             &hm OUT_TOG SPACE              &bt BT_SEL 2                     &bt BT_SEL 3
             >;
