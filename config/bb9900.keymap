@@ -26,6 +26,22 @@
         };
     };
     behaviors {
+        tdSYM: tap_dance_SYM {
+            compatible = "zmk,behavior-tap-dance-SYM";
+            #binding-cells = <0>;
+            tapping-term-ms = <400>;
+            bindings = <&sl SYM>, <&tog SYM>;
+        };
+    };
+    behaviors {
+        tdSHFT: tap_dance_SHFT {
+            compatible = "zmk,behavior-tap-dance-SHFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <400>;
+            bindings = <&sk LSHFT>, <&caps_word LSHFT>;
+        };
+    };
+    behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
@@ -64,7 +80,7 @@
             bindings = <        
                  &tog SYM                                                                                           &tog UPPER
     &kp F2                  &kp F4                              &mkp LCLK                          &kp F5                            &kp F12 
-    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp UNDERSCORE   &kp PLUS         &kp COLON        &kp LBKT
+    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp CARET        &kp PLUS         &kp COLON        &kp LBKT
     &kp DQT      &kp N4     &kp N5      &kp N6    &mt PRCNT SLASH &kp APOS        &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
     &kp LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL CARET &kp ENTER
     &kp LSHFT               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
