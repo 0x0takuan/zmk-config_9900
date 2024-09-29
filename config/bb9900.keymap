@@ -23,22 +23,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <400>;
             bindings = <&mkp LCLK>, <&bt BT_CLR>;
-        };tt
-    };
-    behaviors {
-        tdSYM: tap_dance_SYM {
-            compatible = "zmk,behavior-tap-dance-SYM";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&sl SYM>, <&tog SYM>;
-        };
-    };
-    behaviors {
-        tdSHFT: tap_dance_SHFT {
-            compatible = "zmk,behavior-tap-dance-SHFT";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&sk LSHFT>, <&caps_word LSHFT>;
         };
     };
     behaviors {
