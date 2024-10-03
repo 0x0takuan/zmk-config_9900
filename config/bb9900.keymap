@@ -50,11 +50,11 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &tog SYM                                                                                           &tog UPPER
-    &msc SCRL_UP            &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &msc SCRL_DOWN
+    &mkp LCLK               &msc SCRL_UP                        &mkp LCLK                          &msc SCRL_DOWN                    &mkp CLCK
     &kp Q        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
     &kp A        &kp S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
-    &sl SYM      &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp MINUS        &kp ENTER
-    &kp LSHFT               &kp LCTRL                           &kp SPACE                          &kp LEFT                          &kp RIGHT
+    &kp MINUS    &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &sl SYM          &kp ENTER
+    &sk LCTRL               &sk LSHFT                           &kp SPACE                          &kp LEFT                          &kp RIGHT
             >;
         };
 
@@ -63,11 +63,11 @@
 
             bindings = <        
                  &tog SYM                                                                                           &tog UPPER
-    &kp F2                  &kp F4                              &mkp LCLK                          &kp F5                            &kp F12 
-    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp POUND        &kp PLUS         &kp COLON        &kp LBKT
+    &kp F2                  &kp LGUI                            &mkp LCLK                          &kp C_AC_BACK                     &kp ESC 
+    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp BSLH         &kp PLUS         &kp COLON        &kp LBKT
     &kp DQT      &kp N4     &kp N5      &kp N6    &mt PRCNT SLASH &kp APOS        &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
-    &kp LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL CARET &kp ENTER
-    &kp LSHFT               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
+    &mt KP_EQUAL CARET &kp N7 &kp N8    &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp RSHFT        &kp ENTER
+    &sk LCTRL               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
             >;
         };
 
