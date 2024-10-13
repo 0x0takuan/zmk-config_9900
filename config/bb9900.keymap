@@ -76,9 +76,9 @@
             bindings = <
                  &tog SYM                                                                                           &tog UPPER
     &mkp LCLK               &mkp RCLK                           &td0                                 &mt ESC K_BACK                    &kp CLCK
-    &none        &none      &none       &sys_reset &PIPE2       &kp GRAVE           &none            &bl BL_DEC       &bl BL_INC       &bl BL_TOG
-    &none        &none      &none       &none      &TILDE       &kp ASTRK           &kp RBRC         &kp PIPE         &kp LBRC         &kp BSPC
-    &kp LCTRL    &none      &none       &none      &TILDE2      &kp UNDER           &kp LT           &kp GT           &bootloader      &kp ENTER
+    &none        &none      &none       &sys_reset &kp PIPE2    &kp GRAVE           &none            &bl BL_DEC       &bl BL_INC       &bl BL_TOG
+    &none        &none      &none       &none      &kp TILDE    &kp ASTRK           &kp RBRC         &kp PIPE         &kp LBRC         &kp BSPC
+    &kp LCTRL    &none      &none       &none      &kp TILDE2   &kp UNDER           &kp LT           &kp GT           &bootloader      &kp ENTER
     &bt BT_SEL 0            &bt BT_SEL 1                        &hm OUT_TOG SPACE                    &bt BT_SEL 2                      &bt BT_SEL 3
             >;
         };
