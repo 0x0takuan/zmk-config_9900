@@ -63,8 +63,8 @@
 
             bindings = <        
                  &tog SYM                                                                                           &to UPPER
-    &kp F5                  &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp CLCK
-    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp POUND        &kp PLUS         &kp COLON        &kp LBKT
+    &kp INT_KANA            &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp CLCK
+    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp PRPAR        &kp PLUS         &kp COLON        &kp LBKT
     &kp DQT      &kp N4     &kp N5      &kp N6    &mt PRCNT SLASH &kp APOS        &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
     &kp LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL CARET &kp ENTER
     &sk LCTRL               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
@@ -76,9 +76,9 @@
             bindings = <
                  &tog SYM                                                                                           &tog UPPER
     &mkp LCLK               &mkp RCLK                           &td0                                 &mt ESC K_BACK                    &kp CLCK
-    &none        &none      &none       &sys_reset &none        &kp DLLR            &none            &bl BL_DEC       &bl BL_INC       &bl BL_TOG
-    &none        &none      &none       &none      &none        &kp CARET           &kp RBRC         &kp PIPE         &kp LBRC         &kp BSPC
-    &kp LCTRL    &none      &none       &none      &none        &kp FSLH            &kp LT           &kp GT           &bootloader      &kp ENTER
+    &none        &none      &none       &sys_reset &PIPE2       &kp GRAVE           &none            &bl BL_DEC       &bl BL_INC       &bl BL_TOG
+    &none        &none      &none       &none      &TILDE       &kp ASTRK           &kp RBRC         &kp PIPE         &kp LBRC         &kp BSPC
+    &kp LCTRL    &none      &none       &none      &TILDE2      &kp UNDER           &kp LT           &kp GT           &bootloader      &kp ENTER
     &bt BT_SEL 0            &bt BT_SEL 1                        &hm OUT_TOG SPACE                    &bt BT_SEL 2                      &bt BT_SEL 3
             >;
         };
