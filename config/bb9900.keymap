@@ -64,9 +64,9 @@
             bindings = <        
                  &tog SYM                                                                                           &sl UPPER
     &kp PSCRN               &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp CLCK
-    &kp HASH     &kp N1     &kp N2      &kp N3    &mt RBKT STAR &mt BSLH LPAR     &kp UNDER        &kp PLUS         &kp COLON        &kp LBKT
-    &kp DQT      &kp N4     &kp N5      &kp N6    &mt PRCNT SLASH &kp APOS        &kp SEMI         &kp AMPS         &kp AT           &kp BSPC
-    &sk LALT     &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL CARET &kp ENTER
+    &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
+    &kp STAR     &kp N4     &kp N5      &kp N6    &mt PRCNT SLASH &kp COLON       &kp SEMI         &kp APOS         &kp DQT          &kp BSPC
+    &sk LSHFT    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &mt KP_EQUAL AMPS &kp ENTER
     &sk LCTRL               &kp N0                              &kp SPACE                          &kp UP                            &kp DOWN
             >;
         };
@@ -75,10 +75,10 @@
 
             bindings = <
                  &tog SYM                                                                                             &tog UPPER
-    &mkp LCLK               &mkp RCLK                           &td0                               &mt ESC K_BACK                    &kp CLCK
-    &none        &none      &none       &sys_reset &none        &kp APOS            &none          &bl BL_DEC       &bl BL_INC       &bl BL_TOG
-    &none        &none      &none       &none      &none        &kp SQT             &kp RBRC       &kp PIPE         &kp LBRC         &kp BSPC
-    &kp LCTRL    &none      &none       &none      &none        &kp UNDER           &kp LT         &kp GT           &bootloader      &kp ENTER
+    &mkp LCLK               &mkp RCLK                           &td0                               &mt ESC K_BACK                    &kp K_PWR
+    &none        &none      &none       &sys_reset &none        &none              &kp C_VOL_UP   &bl BL_DEC       &bl BL_INC       &bl BL_TOG
+    &none        &none      &kp C_VOL_DN &none     &none        &none               &none          &kp C_PP         &kp LBRC         &kp BSPC
+    &sk LALT     &none      &none       &none      &none        &kp C_PREV          &kp C_NEXT     &kp C_MUTE       &bootloader      &kp ENTER
     &bt BT_SEL 0            &bt BT_SEL 1                        &hm OUT_TOG SPACE                  &bt BT_SEL 2                      &bt BT_SEL 3
             >;
         };
