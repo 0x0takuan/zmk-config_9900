@@ -74,7 +74,7 @@
         upper_layer {
 
             bindings = <
-                 &tog SYM                                                                                             &tog UPPER
+                 &to SYM                                                                                             &to default
     &mkp LCLK               &mkp RCLK                           &td0                               &mt ESC K_BACK                    &kp K_PWR
     &none        &none      &none       &sys_reset &none        &none              &kp C_VOL_UP   &bl BL_DEC       &bl BL_INC       &bl BL_TOG
     &none        &none      &kp C_VOL_DN &none     &none        &none               &none          &kp C_PP         &kp LBRC         &kp BSPC
